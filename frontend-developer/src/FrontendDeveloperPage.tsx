@@ -31,8 +31,8 @@ const FrontendDeveloperPage: React.FC = () => {
                 <button className="bg-blue-500 text-white py-2 px-4 rounded-lg mt-4">Get Started Now</button>
               </div>
               <div className="flex flex-col">
-                <div style={{ width: '491px', height: '281px', flexShrink: 0, borderRadius: '10px', background: 'url(<path-to-image>) lightgray 50% / cover no-repeat' }}></div>
-                <div className="mt-4" style={{ width: '491px', height: '281px', flexShrink: 0, borderRadius: '10px', background: 'url(<path-to-image>) lightgray 50% / cover no-repeat' }}></div>
+              <div style={{ width: '491px', height: '281px', flexShrink: 0, borderRadius: '10px', background: 'url(https://classroom-training-bucket.s3.ap-south-1.amazonaws.com/abc/photo1.png) lightgray 50% / cover no-repeat' }}></div>
+                <div className="mt-4" style={{ width: '491px', height: '281px', flexShrink: 0, borderRadius: '10px', background: 'url(https://classroom-training-bucket.s3.ap-south-1.amazonaws.com/abc/photo2.png) lightgray 50% / cover no-repeat' }}></div>
               </div>
             </div>
           </section>
@@ -74,26 +74,29 @@ const FrontendDeveloperPage: React.FC = () => {
             <div className="flex justify-between mt-4">
               <div className="bg-white p-4 rounded shadow w-1/3">
                 <h3 className="text-lg font-bold mb-2">Basic Plan</h3>
+                
                 <ul className="list-disc list-inside">
-                  <li>Bullet point 1</li>
-                  <li>Bullet point 2</li>
-                  <li>Bullet point 3</li>
+                  <li>Free Access to Video Class</li>
+                  <li>Free Access to Video Class</li>
+                  <li>Free Access to Video Class</li>
                 </ul>
               </div>
               <div className="bg-white p-4 rounded shadow w-1/3 ml-4">
                 <h3 className="text-lg font-bold mb-2">Premium Plan</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur turpis ac libero hendrerit venenatis.</p>
                 <ul className="list-disc list-inside">
-                  <li>Bullet point 1</li>
-                  <li>Bullet point 2</li>
-                  <li>Bullet point 3</li>
+                  <li>Free Access to Video Class</li>
+                  <li>Free Access to Video Class</li>
+                  <li>Free Access to Video Class</li>
                 </ul>
               </div>
               <div className="bg-white p-4 rounded shadow w-1/3 ml-4">
                 <h3 className="text-lg font-bold mb-2">Advance Plan</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur turpis ac libero hendrerit venenatis.</p>
                 <ul className="list-disc list-inside">
-                  <li>Bullet point 1</li>
-                  <li>Bullet point 2</li>
-                  <li>Bullet point 3</li>
+                  <li>Free Access to Video Class</li>
+                  <li>Free Access to Video Class</li>
+                  <li>Free Access to Video Class</li>
                 </ul>
               </div>
             </div>
